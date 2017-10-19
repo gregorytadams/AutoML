@@ -1,0 +1,27 @@
+Notes on interaction progression:
+
+Open Widget.
+Upoad file (type in filepath)
+Press Submit (read in file)
+
+What are you trying to predict? (select one column name)
+What are you trying to predict it with? (choose one or more column names)
+Press Enter (print "The dependent variable seems to be a [continuous, categorical, binary] variable.  Is this correct?" 
+y/n
+
+Select which models you would like to try (choose more-or-more from a list)
+How comprehensive would you like to be (rate 0-10; select models back-end)
+Press Enter (construct config file; train models)
+	Training: run one model, check if it's good.  
+				If so, output file of where you are. Output results file. Is this good enough? y/n
+					If yes, finish.
+				If not, continue until end.
+				If end, output standard results file.
+
+
+
+
+
+
+(run logistic or linear regression; print results to excel file)
+		
